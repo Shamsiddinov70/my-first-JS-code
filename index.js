@@ -21,7 +21,7 @@
 // Age: ${age}`);
 
 
-alert('Wlecome to MIT university!');
+alert('Welcome to MIT university!');
 let userName = prompt("Please enter your name", 'Abdulloh');
 var name = userName;
 
@@ -43,6 +43,18 @@ var aim = purpose;
 let family = prompt("How is your family's financial situation?", 'not bad');
 var financialSituation = family;
 
+let decision = prompt("why are you choose this university?", 'just so');
+var choose = decision;
+
+
+let futureStudy = prompt("Do you want to study another university after that?", 'i am not sure');
+var anotherUniversity = futureStudy;
+
+
+let conclusion = prompt("How is your conclusion?", 'great');
+var finalAnswer = conclusion;
+
+
 
 
 console.log(`
@@ -54,4 +66,7 @@ Major: ${major}
 Nationality: ${nation}
 Wedding: ${wedding}
 Purpose: ${aim}
-Family situation: ${financialSituation}`)
+Family situation: ${financialSituation}
+About desicion: ${choose}
+About another university: ${anotherUniversity}
+Conclusion: ${finalAnswer}`);
