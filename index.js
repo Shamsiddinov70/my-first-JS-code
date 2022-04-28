@@ -21,6 +21,10 @@
 // Age: ${age}`);
 
 
+/*  VIDEONI KO`RMASDAN BAJARGAN EDIM 2 BAROBAR KO`P ISH QILVORIPMAN AXAXA,
+SHULARNI QISQARTIRIB BIR QATOR QILIB YOZSA HAM BO`LARKAN MISOL UCHUN: var bye = prompt("Good bye", 'see you')
+BIRINCHI QATORDAGI LET SHART BO`LMASKAN,HA MAYLI TAJRIBA BO`LDI AXAXA.*/
+
 alert('Welcome to MIT university!');
 let userName = prompt("Please enter your name", 'Abdulloh');
 var name = userName;
@@ -54,6 +58,8 @@ var anotherUniversity = futureStudy;
 let conclusion = prompt("How is your conclusion?", 'great');
 var finalAnswer = conclusion;
 
+var bye = prompt("Good bye", 'see you')
+
 
 
 
@@ -69,4 +75,5 @@ Purpose: ${aim}
 Family situation: ${financialSituation}
 About desicion: ${choose}
 About another university: ${anotherUniversity}
-Conclusion: ${finalAnswer}`);
+Conclusion: ${finalAnswer}
+How are you?: ${bye}`);
