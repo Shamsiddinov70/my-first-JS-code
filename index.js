@@ -76,4 +76,4 @@ Family situation: ${financialSituation}
 About desicion: ${choose}
 About another university: ${anotherUniversity}
 Conclusion: ${finalAnswer}
-Good bye?: ${bye}`);
+Good bye: ${bye}`);
